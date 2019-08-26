@@ -10,11 +10,12 @@ public class CameraWork : MonoBehaviour
     void Start()
     {
         Sphere = GameObject.Find("Sphere");
+        transform.localEulerAngles = new Vector3(transform.localEulerAngles.x + 20, transform.localEulerAngles.y, transform.localEulerAngles.z);
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.position = new Vector3(Sphere.transform.position.x - 1, Sphere.transform.position.y - 1, Sphere.transform.position.z - 8);
+        transform.position = new Vector3(Sphere.transform.position.x - 1, Sphere.transform.position.y + 5, Sphere.transform.position.z - 8);
     }
 }
