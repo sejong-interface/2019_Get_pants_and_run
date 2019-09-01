@@ -17,6 +17,11 @@ public class Sphere : MonoBehaviour
         return distance;
     }
 
+    public void adjustBoost(float boost)
+    {
+        this.boost = boost;
+    }
+
     void Start()
     {
         //Rigidbody myRigidbody = GetComponent<Rigidbody>();
@@ -58,5 +63,6 @@ public class Sphere : MonoBehaviour
         {
             transform.position = new Vector3(transform.position.x + 0.2f + boost, transform.position.y, transform.position.z);
         }
+
     }
 }
