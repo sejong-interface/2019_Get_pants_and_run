@@ -63,7 +63,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameraWork.cs" />
+    <Compile Include="Assets\Scripts\Coin.cs" />
     <Compile Include="Assets\Scripts\Flat.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\groundCheck.cs" />
     <Compile Include="Assets\Scripts\Sphere.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/kysoo/Desktop/Memo/Projects/2019/UnityTest/Test/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>

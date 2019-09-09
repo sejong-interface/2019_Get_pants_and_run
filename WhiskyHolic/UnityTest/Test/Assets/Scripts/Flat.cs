@@ -13,7 +13,7 @@ public class Flat : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float zRotation = transform.localEulerAngles.z;
+        /*float zRotation = transform.localEulerAngles.z;
 
         zRotation = Input.GetAxis("Horizontal") + transform.localEulerAngles.z;
         transform.localEulerAngles = new Vector3(0, -44, zRotation);
@@ -22,6 +22,6 @@ public class Flat : MonoBehaviour
         {
             if (Input.mousePosition.x <= Screen.width / 2) transform.localEulerAngles = new Vector3(transform.localEulerAngles.x + 10, transform.localEulerAngles.y, transform.localEulerAngles.z);
             else if (Input.mousePosition.x > Screen.width / 2) transform.localEulerAngles = new Vector3(transform.localEulerAngles.x - 10, transform.localEulerAngles.y, transform.localEulerAngles.z);
-        }
+        }*/
     }
 }
