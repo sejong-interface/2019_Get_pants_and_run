@@ -85,3 +85,4 @@ https://docs.google.com/document/d/1JyzNHxiSKBxWVrs8LKE3k4qC2CC7cksl2KVZuHQEcSg/
     * [X] 상하 방향키 입력받아서 오브젝트(Ball)가 점프하도록 만들기 (3D 맵에 장애물도 만들어서 뛰어넘을수 있도록하기)
     * [ ] 오브젝트(Ball)가 맵에서 기본속도로 달리는 상황에서 특정 키를 누르면 10초동안 가속하게 만들기
     * [X] 맵에 코인 배치해놓고, 코인 먹으면 몇 개 먹었는지 게임뷰에 띄우기
+    * [X] 캐릭터를 쫓아오는 몬스터 만들기
